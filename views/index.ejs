@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Welcome, <%= name %>!</h1>
+    <form id="registerForm" action="/api/users/add" method="post">
+  <h2>Save</h2>
+
+  <div class="input-box">
+    <label>Full Name</label>
+	<input required id="fname" name="fname">
+    
+  </div>
+
+  <div class="input-box">
+    <label>Email</label>
+	<input required id="email" name="email">
+    
+  </div>
+
+  <div class="input-box">
+    <label>Phone</label>
+	<input type="text" required id="mobile" name="mobile">
+    
+  </div>
+<div class="input-box">
+<label>Message</label>
+    <input type="text" required id="msg" name="msg">
+    
+  </div>
+  <button type="submit" class="btn">Save</button>
+</form>
+
+
+</body>
+</html>
