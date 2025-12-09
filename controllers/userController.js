@@ -44,21 +44,21 @@ try {
 		fname,
 		msg,
 		company: "Rising Advisory Services Pvt Ltd",
-        dt: new Date().getFullYear()
+                dt: new Date().getFullYear()
 			}
 	});
 
     //send mail to self
     
 	sendMail({
-	  to: "kmttacademy@gmail.com",
+	  to: process.env.MAIL_SELF,
 	  subject: "Acknowledgement Mail",
 	  htmlFile: "selfmail.html",
 	  data: {
 		fname,
 		email,
 		company: "Rising Advisory Services Pvt Ltd",
-	    dt: new Date().getFullYear()
+	        dt: new Date().getFullYear()
 		}
     });
 
