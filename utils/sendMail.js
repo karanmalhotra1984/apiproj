@@ -16,20 +16,19 @@ html =  html.replaceAll('{dt}', data.dt);
 
 html = html.replaceAll('{company}',data.company);
 
-
   // Nodemailer transporter
   const transporter = nodemailer.createTransport({
-    service: process.env.MAIL_SERVICE,
-	port: process.env.MAIL_SMTP_PORT,
-	host:process.env.MAIL_SMTP_HOST,
+    
+	port: data.MAIL_SMTP_PORT,
+	host:data.MAIL_SMTP_HOST,
     auth: {
-      user: process.env.MAIL_USER,
-      pass: process.env.MAIL_PASS
+      user: data.MAIL_USER,
+      pass: data.MAIL_PASS
     }
   });
 
   await transporter.sendMail({
-    from: process.env.MAIL_USER,
+    from: data.MAIL_USER,
     to,
     subject,
     html
