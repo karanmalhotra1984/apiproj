@@ -1,52 +1,58 @@
 {
-    "CREDM": [
-        {
-            "MAIL_CREDM_USER": "taxmanager.karan@gmail.com",
-            "MAIL_CREDM_PASS": "efmheaxalvckhptz",
-			"MAIL_CREDM_SMTP_HOST": "smtp.gmail.com",
-			"MAIL_CREDM_SMTP_PORT": 587,
-			"MAIL_CREDM_SERVICE": "gmail",
-			"MAIL_CREDM_SELF": "taxmanager.karan@gmail.com"
-        }
-    ],
-	"TAXM": [
-        {
-            "MAIL_TAXM_USER": "taxmanager.karan@gmail.com",
-            "MAIL_TAXM_PASS": "efmheaxalvckhptz",
-			"MAIL_TAXM_SMTP_HOST": "smtp.gmail.com",
-			"MAIL_TAXM_SMTP_PORT": 587,
-			"MAIL_TAXM_SERVICE": "gmail",
-			"MAIL_TAXM_SELF": "taxmanager.karan@gmail.com"
-        }
-    ],
-	"RISEIT": [
-        {
-            "MAIL_RISEIT_USER": "taxmanager.karan@gmail.com",
-            "MAIL_RISEIT_PASS": "efmheaxalvckhptz",
-			"MAIL_RISEIT_SMTP_HOST": "smtp.gmail.com",
-			"MAIL_RISEIT_SMTP_PORT": 587,
-			"MAIL_RISEIT_SERVICE": "gmail",
-			"MAIL_RISEIT_SELF": "taxmanager.karan@gmail.com"
-        }
-    ],
-	"RISING": [
-        {
-            "MAIL_RISING_USER": "taxmanager.karan@gmail.com",
-            "MAIL_RISING_PASS": "efmheaxalvckhptz",
-			"MAIL_RISING_SMTP_HOST": "smtp.gmail.com",
-			"MAIL_RISING_SMTP_PORT": 587,
-			"MAIL_RISING_SERVICE": "gmail",
-			"MAIL_RISING_SELF": "taxmanager.karan@gmail.com"
-        }
-    ],
-	"DEFAULT": [
+    "credmanager": [
         {
             "MAIL_USER": "taxmanager.karan@gmail.com",
-            "MAIL_PASS": "ahbijhryewbioonz",
+            "MAIL_PASS": "bkbdeoeufzywcoik",
 			"MAIL_SMTP_HOST": "smtp.gmail.com",
 			"MAIL_SMTP_PORT": 587,
 			"MAIL_SERVICE": "gmail",
-			"MAIL_SELF": "taxmanager.karan@gmail.com"
+			"MAIL_SELF": "taxmanager.karan@gmail.com",
+			"MAIL_FILE": "Credmail.html"
+        }
+    ],
+	"taxmanager": [
+        {
+            "MAIL_USER": "taxmanager.karan@gmail.com",
+            "MAIL_PASS": "bkbdeoeufzywcoik",
+			"MAIL_SMTP_HOST": "smtp.gmail.com",
+			"MAIL_SMTP_PORT": 587,
+			"MAIL_SERVICE": "gmail",
+			"MAIL_SELF": "taxmanager.karan@gmail.com",
+			"MAIL_FILE": "TaxMMail.html"
+        }
+    ],
+	"riseit360": [
+        {
+            "MAIL_USER": "taxmanager.karan@gmail.com",
+            "MAIL_PASS": "bkbdeoeufzywcoik",
+			"MAIL_SMTP_HOST": "smtp.gmail.com",
+			"MAIL_SMTP_PORT": 587,
+			"MAIL_SERVICE": "gmail",
+			"MAIL_SELF": "taxmanager.karan@gmail.com",
+			"MAIL_FILE": "RiseIT.html"
+        }
+    ],
+	"risingadvisory": [
+        {
+            "MAIL_USER": "taxmanager.karan@gmail.com",
+            "MAIL_PASS": "bkbdeoeufzywcoik",
+			"MAIL_SMTP_HOST": "smtp.gmail.com",
+			"MAIL_SMTP_PORT": 587,
+			"MAIL_SERVICE": "gmail",
+			"MAIL_SELF": "taxmanager.karan@gmail.com",
+			"MAIL_FILE": "Rising.html"
+        }
+    ],
+	"localhost": [
+        {
+            "MAIL_USER": "taxmanager.karan@gmail.com",
+            "MAIL_PASS": "bkbdeoeufzywcoik",
+			"MAIL_SMTP_HOST": "smtp.gmail.com",
+			"MAIL_SMTP_PORT": 587,
+			"MAIL_SERVICE": "gmail",
+			"MAIL_SELF": "taxmanager.karan@gmail.com",
+			"MAIL_FILE": "Default.html"
+			
         }
     ]
 }
